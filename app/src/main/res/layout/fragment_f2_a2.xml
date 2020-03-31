@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".F2A2">
+
+    <Button
+        android:id="@+id/btn_replace_f1a2_with_f3a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:text="@string/str_replace_fragment"
+        android:textAllCaps="false"
+        android:onClick="replaceFragment"/>
+
+    <Button
+        android:id="@+id/btn_remove_f1a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="@string/str_remove_fragment"
+        android:textAllCaps="false"
+        android:onClick="removeFragment"/>
+
+    <Button
+        android:id="@+id/btn_close_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="470dp"
+        android:text="@string/str_close_activity"
+        android:textAllCaps="false"
+       android:onClick="closeActivity"/>
+
+</FrameLayout>

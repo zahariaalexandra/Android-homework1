@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tema 1</string>
+    <string name="str_go_to_second_activity">Go to the second activity</string>
+    <string name="str_go_to_second_fragment">Add the second fragment</string>
+    <string name="str_replace_fragment">Replace this fragment</string>
+    <string name="str_remove_fragment">Remove the first fragment</string>
+    <string name="str_close_activity">Close activity</string>
+    <string name="str_replaced">Replaced the fragment</string>
+    <string name="str_removed">Removed</string>
+
+</resources>
